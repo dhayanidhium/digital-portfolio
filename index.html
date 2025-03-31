@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhayanidhi's Resume</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .resume {
+            display: flex;
+            justify-content: space-between;
+            padding: 40px;
+            margin: 0 auto;
+            width: 80%;
+        }
+
+        .resume_left {
+            width: 35%;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .resume_profile img {
+            width: 100%;
+            height: auto;
+            border-radius: 50%;
+            border: 5px solid #000;
+        }
+
+        .resume_content .title {
+            margin-bottom: 10px;
+        }
+
+        .resume_content .bold {
+            font-weight: bold;
+            font-size: 1.5em;
+        }
+
+        .resume_content .regular {
+            font-weight: normal;
+            font-size: 1em;
+        }
+
+        .resume_content .semi-bold {
+            font-weight: semi-bold;
+        }
+
+        /* Resume Info Section */
+        .resume_info ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .resume_info ul li {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .resume_info .icon {
+            font-size: 1.2em;
+            color: #333;
+            margin-right: 10px;
+        }
+
+        .resume_info .data {
+            font-size: 1em;
+        }
+
+        /* Skills Section */
+        .resume_skills ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .resume_skills li {
+            margin-bottom: 10px;
+        }
+
+        .resume_skills .skill_name {
+            font-weight: bold;
+        }
+
+        .resume_skills .skill_progress {
+            width: 100%;
+            background-color: #e0e0e0;
+            border-radius: 5px;
+            margin: 5px 0;
+            position: relative;
+            height: 10px;
+        }
+
+        .resume_skills .skill_progress span {
+            display: block;
+            height: 100%;
+            background-color: #4caf50;
+            border-radius: 5px;
+        }
+
+        .resume_skills .skill_per {
+            font-size: 0.9em;
+            text-align: right;
+            padding-right: 5px;
+        }
+
+        /* Social Section */
+        .resume_social ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .resume_social li {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .resume_social .icon {
+            font-size: 1.5em;
+            color: #333;
+            margin-right: 10px;
+        }
+
+        .resume_social .data {
+            font-size: 1em;
+        }
+
+        /* Resume Right Section */
+        .resume_right {
+            width: 60%;
+        }
+
+        .resume_right .resume_item {
+            margin-bottom: 30px;
+        }
+
+        /* About Me Section */
+        .resume_about p {
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+
+        /* Education Section */
+        .resume_work ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .resume_work li {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 15px;
+        }
+
+        .resume_work .date {
+            font-weight: bold;
+            color: #333;
+            width: 20%;
+        }
+
+        .resume_work .info {
+            width: 75%;
+        }
+
+        .resume_work .info .semi-bold {
+            font-weight: bold;
+        }
+
+        /* Activities Section */
+        .resume_education ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .resume_education li {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 15px;
+        }
+
+        .resume_education .date {
+            font-weight: bold;
+            color: #333;
+            width: 20%;
+        }
+
+        .resume_education .info {
+            width: 75%;
+        }
+
+        .resume_education .info .semi-bold {
+            font-weight: bold;
+        }
+
+        /* Hobbies Section */
+        .resume_hobby ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .resume_hobby ul li {
+            font-size: 1.5em;
+        }
+
+        /* Social Icons Styling */
+        .fab, .fas {
+            font-size: 1.5em;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="resume">
+        <div class="resume_left">
+            <div class="resume_profile">
+                <img src="https://raw.githubusercontent.com/dhayanidhium/digital-portfolio/27a233e4d479165555a65dbfab279c3b90fdadf5/dn.png">
+            </div>
+            <div class="resume_content">
+                <div class="resume_item resume_info">
+                    <div class="title">
+                        <p class="bold">DHAYANIDHI U</p>
+                        <p class="regular">student</p>
+                    </div>
+                    <ul>
+                        <li>
+                            <div class="icon">
+                                <i class="fas fa-map-signs"></i>
+                            </div>
+                            <div class="data">
+                                12,chittoorroad, murugoor, Tiruttani
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                            <div class="data">
+                                +91 9025804432
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="data">
+                                dhayanidhium@gmail.com
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <i class="fab fa-weebly"></i>
+                            </div>
+                            <div class="data">
+                                www.dhayanidhi.com
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="resume_item resume_skills">
+                    <div class="title">
+                        <p class="bold">Skills</p>
+                    </div>
+                    <ul>
+                        <li>
+                            <div class="skill_name">HTML</div>
+                            <div class="skill_progress">
+                                <span style="width: 80%;"></span>
+                            </div>
+                            <div class="skill_per">80%</div>
+                        </li>
+                        <li>
+                            <div class="skill_name">CSS</div>
+                            <div class="skill_progress">
+                                <span style="width: 70%;"></span>
+                            </div>
+                            <div class="skill_per">70%</div>
+                        </li>
+                        <li>
+                            <div class="skill_name">C&C++</div>
+                            <div class="skill_progress">
+                                <span style="width: 90%;"></span>
+                            </div>
+                            <div class="skill_per">90%</div>
+                        </li>
+                        <li>
+                            <div class="skill_name">JAVA</div>
+                            <div class="skill_progress">
+                                <span style="width: 60%;"></span>
+                            </div>
+                            <div class="skill_per">60%</div>
+                        </li>
+                        <li>
+                            <div class="skill_name">PYTHON</div>
+                            <div class="skill_progress">
+                                <span style="width: 88%;"></span>
+                            </div>
+                            <div class="skill_per">88%</div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="resume_item resume_social">
+                    <div class="title">
+                        <p class="bold">Social</p>
+                    </div>
+                    <ul>
+                        <li>
+                            <div class="icon">
+                                <i class="fab fa-instagram"></i>
+                            </div>
+                            <div class="data">
+                                <p class="semi-bold">Instagram</p>
+                                <p>mr_evil_joker_don</p>
+                            </div>
+                        </li>
+                        
+                        <li>
+                            <div class="icon">
+                                <i class="fab fa-twitter-square"></i>
+                            </div>
+                            <div class="data">
+                                <p class="semi-bold">Twitter</p>
+                                <p>dhaya2409@twitter</p>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="icon">
+                                <i class="fab fa-github"></i>
+                            </div>
+                            <div class="data">
+                                <p class="semi-bold">GitHub</p>
+                                <p>dhayanidhium@github</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="resume_right">
+            <div class="resume_item resume_about">
+                <div class="title">
+                    <p class="bold">About Me</p>
+                </div>
+                <p>I am a BCA student with a strong interest in programming, data structures, and problem-solving. I enjoy learning new technologies and improving my coding skills. My current focus is on understanding core computer science concepts like web Designing and full stack</p>
+            </div>
+            <div class="resume_item resume_work">
+                <div class="title">
+                    <p class="bold">education</p>
+                </div>
+                <ul>
+                    <li>
+                        <div class="date">2019 - 2020</div>
+                        <div class="info">
+                            <p class="semi-bold">SSLC.</p>
+                            <p>I completed SSLC (10th grade) in govt,boys hr sec school,tiruttani.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="date">2020 - 2023</div>
+                        <div class="info">
+                            <p class="semi-bold"> HSC </p>
+                            <p>I completed my HSC (11th and 12th) grade in govt high sec school,tiruttani.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="date"> 2024 & 25- Present</div>
+                        <div class="info">
+                            <p class="semi-bold">Bachlelor of Science in computer application</p>
+                            <p>Now,i am studying BCA in Subramaniya swamy Govt.Arts college,Tiruttani.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="resume_item resume_education">
+                <div class="title">
+                    <p class="bold">ACTIVITES</p>
+                </div>
+                <ul>
+                    <li>
+                        <div class="date">ACADEMIC</div>
+                        <div class="info">
+                            <p class="semi-bold">Coding Competitions</p>
+                            <p>Participated in hackathons or coding challenges (e.g., CodeChef, LeetCode, Hackerrank).</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="date">TECHNICAL</div>
+                        <div class="info">
+                            <p class="semi-bold">Workshops & Seminars</p>
+                            <p>Attended or organized workshops on Data Structures, Web Development, AI, or Cybersecurity.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>
